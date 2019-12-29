@@ -15,6 +15,7 @@
 		A4672C8D23B59BE600D5E20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4672C8B23B59BE600D5E20C /* LaunchScreen.storyboard */; };
 		A4672C9823B5A1B700D5E20C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4672C9723B5A1B700D5E20C /* CategoryCell.swift */; };
 		A48CE9E423B8520E0070F0AB /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CE9E323B8520E0070F0AB /* ProductCell.swift */; };
+		A48CE9E623B91CCF0070F0AB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CE9E523B91CCF0070F0AB /* Product.swift */; };
 		A4A8DBCE23B83E7B0002F22C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8DBCD23B83E7B0002F22C /* Category.swift */; };
 		A4A8DBD123B840750002F22C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8DBD023B840750002F22C /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		A4672C8E23B59BE600D5E20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4672C9723B5A1B700D5E20C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		A48CE9E323B8520E0070F0AB /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		A48CE9E523B91CCF0070F0AB /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		A4A8DBCD23B83E7B0002F22C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A4A8DBD023B840750002F22C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				A4A8DBCD23B83E7B0002F22C /* Category.swift */,
+				A48CE9E523B91CCF0070F0AB /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4672C8523B59BE300D5E20C /* CategoriesVC.swift in Sources */,
+				A48CE9E623B91CCF0070F0AB /* Product.swift in Sources */,
 				A4A8DBCE23B83E7B0002F22C /* Category.swift in Sources */,
 				A4672C8123B59BE300D5E20C /* AppDelegate.swift in Sources */,
 				A4A8DBD123B840750002F22C /* DataService.swift in Sources */,
