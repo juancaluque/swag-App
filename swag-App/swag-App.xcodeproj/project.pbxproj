@@ -16,6 +16,7 @@
 		A4672C9823B5A1B700D5E20C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4672C9723B5A1B700D5E20C /* CategoryCell.swift */; };
 		A48CE9E423B8520E0070F0AB /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CE9E323B8520E0070F0AB /* ProductCell.swift */; };
 		A48CE9E623B91CCF0070F0AB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CE9E523B91CCF0070F0AB /* Product.swift */; };
+		A48CE9E823B926500070F0AB /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CE9E723B926500070F0AB /* ProductsVC.swift */; };
 		A4A8DBCE23B83E7B0002F22C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8DBCD23B83E7B0002F22C /* Category.swift */; };
 		A4A8DBD123B840750002F22C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8DBD023B840750002F22C /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		A4672C9723B5A1B700D5E20C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		A48CE9E323B8520E0070F0AB /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		A48CE9E523B91CCF0070F0AB /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A48CE9E723B926500070F0AB /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		A4A8DBCD23B83E7B0002F22C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A4A8DBD023B840750002F22C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				A4672C8423B59BE300D5E20C /* CategoriesVC.swift */,
+				A48CE9E723B926500070F0AB /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				A4672C8323B59BE300D5E20C /* SceneDelegate.swift in Sources */,
 				A48CE9E423B8520E0070F0AB /* ProductCell.swift in Sources */,
 				A4672C9823B5A1B700D5E20C /* CategoryCell.swift in Sources */,
+				A48CE9E823B926500070F0AB /* ProductsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
