@@ -14,6 +14,7 @@
 		A4672C8A23B59BE600D5E20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4672C8923B59BE600D5E20C /* Assets.xcassets */; };
 		A4672C8D23B59BE600D5E20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4672C8B23B59BE600D5E20C /* LaunchScreen.storyboard */; };
 		A4672C9823B5A1B700D5E20C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4672C9723B5A1B700D5E20C /* CategoryCell.swift */; };
+		A48CE9E423B8520E0070F0AB /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CE9E323B8520E0070F0AB /* ProductCell.swift */; };
 		A4A8DBCE23B83E7B0002F22C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8DBCD23B83E7B0002F22C /* Category.swift */; };
 		A4A8DBD123B840750002F22C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8DBD023B840750002F22C /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		A4672C8C23B59BE600D5E20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4672C8E23B59BE600D5E20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4672C9723B5A1B700D5E20C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		A48CE9E323B8520E0070F0AB /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		A4A8DBCD23B83E7B0002F22C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A4A8DBD023B840750002F22C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A4672C9723B5A1B700D5E20C /* CategoryCell.swift */,
+				A48CE9E323B8520E0070F0AB /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				A4672C8123B59BE300D5E20C /* AppDelegate.swift in Sources */,
 				A4A8DBD123B840750002F22C /* DataService.swift in Sources */,
 				A4672C8323B59BE300D5E20C /* SceneDelegate.swift in Sources */,
+				A48CE9E423B8520E0070F0AB /* ProductCell.swift in Sources */,
 				A4672C9823B5A1B700D5E20C /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
